@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #b7e3e4, #f0f8f8);
+  color: #222;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: transparent;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid #000;
+}
+
+.buttons .btn {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 25px;
+  border: 1px solid #333;
+  margin-left: 10px;
+}
+
+.btn.login {
+  background: transparent;
+}
+
+.btn.signup {
+  background: #333;
+  color: white;
+}
+
+/* --- HERO SECTION --- */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 400px;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-buttons button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  background: transparent;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 200px;
+}
+
