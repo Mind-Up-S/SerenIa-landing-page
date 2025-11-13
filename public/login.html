@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SerenIA - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">SerenIA</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#">ChatBot</a></li>
+        <li><a href="#">Agenda</a></li>
+        <li><a href="#">Comunidad</a></li>
+      </ul>
+    </nav>
+    <div class="buttons">
+      <a href="login.html" class="btn login active">Login</a>
+      <a href="#" class="btn signup">Sign up</a>
+    </div>
+  </header>
+
+  <main class="login-container">
+    <h2>INICIO DE SESIÓN</h2>
+    <form class="login-form">
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" placeholder="Ingresa tu correo" required />
+
+      <label for="password">Contraseña</label>
+      <input type="password" id="password" placeholder="********" required />
+
+      <button type="submit" class="btn primary">Ingresar</button>
+
+      <div class="extra-options">
+        <label><input type="checkbox" /> Recordar contraseña</label>
+        <a href="#">¿Olvidaste tu contraseña?</a>
+      </div>
+
+      <hr>
+      <p class="social-title">Inicia sesión con</p>
+
+      <div class="social-login">
+        <button class="google">Continue with Google</button>
+        <button class="facebook">Continue with Facebook</button>
+      </div>
+
+      <p class="register-text">¿No tienes cuenta? <a href="#">Sign up</a></p>
+    </form>
+  </main>
+
+  <footer>
+    <p>SerenIA 2025</p>
+  </footer>
+
+  <script src=""></script>
+</body>
+</html>
